@@ -1,4 +1,4 @@
-# Courses_Vadim_Ksendzov
+# JavaScript
 
 HM1 - Задачи на операции с переменными
 
