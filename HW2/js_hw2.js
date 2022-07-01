@@ -40,7 +40,7 @@ const getWordStructure =function(word){
 	let regexp = /[AEYUIO]/gi;
 	let matches_array = word.match(regexp);
  	let vowels = matches_array.length;
-	if (word.indexOf('-') == -1){
+	if (word.indexOf('-') == -1 && word.indexOf("'") == -1){
 		let consonants = word.length - vowels;
 	}
 	else{
